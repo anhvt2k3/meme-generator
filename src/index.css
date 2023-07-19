@@ -1,13 +1,76 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* Reset css */
+* {
+     /* Emmet */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* 
+1.Từ ngoài vào trong/ trên xuống dưới 
+3. Tổng quan đến chi tiết*/
+
+/* 
+1. vị trí 
+2. kích thước
+3. màu sắc
+4. kiểu dáng */
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+header  {
+  display: flex;
+  padding: 50px;
+  background-color: blueviolet;
+}
+
+header > img {
+  margin: 5px;
+}
+
+.header-title {
+
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  height: 100%;
+
+} 
+
+.input-grp {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0px;
+
+}
+
+.input-grp > input {
+  width: 270px;
+  height: 30px;
+  padding: 10px 5px;
+}
+
+.upper-inp {
+
+}
+
+.under-inp {
+
+}
+
+.new-meme-btn {
+
+}
+
+.generated-img {
+
 }
